@@ -10,9 +10,9 @@ By default the chain length is 3, requiring 3 instances and their roles are as f
 2. Client {1} & Server {2}
 3. Client {2} & Client {3}
 
-The correct order for executing the above would be:
-`./Program -s 6969`
-`./Program -c 6969 -s`
-`./Program -c 6970 -c`
+The correct order for executing the above would be:  
+`./Program -s 6969`  
+`./Program -c 6969 -s`  
+`./Program -c 6970 -c`  
 
 Chain length can be modified by editing the CHAIN_LENGTH define in `socks.h`
